@@ -51,7 +51,7 @@ The script below tracks user's newest twitter.
 {
   target_url: /^(https|http)\:\/\/twitter\.com\/([^\/]+)$/,
   name: "twitter update tracker",
-  description: "tracker user twitter update",
+  description: "track user twitter update",
   keywords: ["twitter"],
   version: "0.0.1",
   public: false,
