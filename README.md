@@ -4,6 +4,7 @@
 <center> I don't know why I am writing this, but... I will continue</center>
 
 <center> [中文文档](./README_CN.md)   </center>
+<center> [download this extension](https://chrome.google.com/webstore/detail/moni/hhmmkkgkbnnfdpmnckaicamnhfkolfej) </center>
 
 **Moni** is a chrome extension that we are developing right now.  
 I am planning to publish it to chrome web store in a month if I finish.  
@@ -79,7 +80,8 @@ The script format is like below.
 The argument `event` that passed to `script` function has the following fields:   
 `url`: current url that this script applied to.    
 `cheerio`: [cheerio](https://github.com/cheeriojs/cheerio) library. you can use it to parse html.   
-`$get`: ajax get function, `event.$get(opt, callback)`  
+`$get`: ajax get function, `event.$get(opt, callback)`    
+
 | Argument  |  Description |
 |---|---|
 | opt | the first argument   |
@@ -87,7 +89,8 @@ The argument `event` that passed to `script` function has the following fields:
 |  &nbsp;&nbsp;&nbsp;&nbsp;`dataType` | (optional) dataType to return, behave the same as jQuery ajax |  
 | callback | callback function |
 | &nbsp;&nbsp;&nbsp;&nbsp; `error` | is there error or not |
-|  &nbsp;&nbsp;&nbsp;&nbsp; `body` | response body |
+|  &nbsp;&nbsp;&nbsp;&nbsp; `body` | response body |  
+
 `return`: used when you need to return something. As `script` is asynchronous, you need to call `event.return` to return a value.  
 
 ### Script return  
@@ -216,3 +219,6 @@ For example, for rss [anime-cloud tumblr](http://anime-cloud.tumblr.com/rss), it
 Click its title will enter RSS page, which currently looks like this:  
 ![Screen Shot 2017-01-29 at 12.37.52 AM](</assets/Screen Shot 2017-01-29 at 12.37.52 AM.png>)
 ![Screen Shot 2017-01-29 at 12.38.01 AM](</assets/Screen Shot 2017-01-29 at 12.38.01 AM.png>)  
+
+# MISC  
+[download this extension](https://chrome.google.com/webstore/detail/moni/hhmmkkgkbnnfdpmnckaicamnhfkolfej)  

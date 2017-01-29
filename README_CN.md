@@ -3,7 +3,8 @@
 <center>[painting v0.0.1 by Yiyi Wang (not finished)] </center>  
 <center> I don't know why I am writing this, but... I will continue</center>
 
-<center> [English Doc](./README.md)   </center>
+<center> [English Doc](./README.md) </center>
+<center> [下载该插件](https://chrome.google.com/webstore/detail/moni/hhmmkkgkbnnfdpmnckaicamnhfkolfej) </center>
 
 **Moni** 是一款我们正在开发的 chrome 插件。  
 这个项目目前是闭源的（将来可能会开源）。
@@ -25,6 +26,7 @@
   * [Moni page](#moni-page)
   * [Script page](#script-page)
 * [RSS 支持](#rss-支持)
+* [杂项](#杂项)
 
 <!-- tocstop -->
 
@@ -33,7 +35,7 @@
 英文 **Moni**, 中文 **猫腻** 来源于单词 **monitor**.  
 **Moni** 是一款页面监控插件。      
 
-**Moni** 又 chrome 插件 [visualping](https://visualping.io/) 启发而来。  
+**Moni** 由 chrome 插件 [visualping](https://visualping.io/) 启发而来。  
 但是, **Moni** 和 visualping 的工作方式完全不同。
 
 **Moni** 允许用户编写 javascript 脚本来帮助进行页面监控。  
@@ -78,6 +80,7 @@
 `url`: 当前脚本所应用的 url。     
 `cheerio`: [cheerio](https://github.com/cheeriojs/cheerio) 裤. 你可以使用它来处理 html。  
 `$get`: ajax get 函数, `event.$get(opt, callback)`    
+
 | 参数  |  描述 |  
 |---|---|
 | opt | 第一个参数   |
@@ -85,7 +88,8 @@
 |  &nbsp;&nbsp;&nbsp;&nbsp;`dataType` | (optional) 返回的 dataType，和 jQuery ajax 一样 |  
 | callback | 回调 function |
 | &nbsp;&nbsp;&nbsp;&nbsp; `error` | 有没有 error |
-|  &nbsp;&nbsp;&nbsp;&nbsp; `body` | response body |
+|  &nbsp;&nbsp;&nbsp;&nbsp; `body` | response body |  
+
 `return`: 用于函数的返回。因为 `script` 是异步的，你需要调用 `event.return` 来返回值。  
 
 ### 脚本返回    
@@ -289,4 +293,7 @@ Moni 支持非常简易的 RSS 订阅。
 点击标题进入 RSS 页：  
 
 ![Screen Shot 2017-01-29 at 1.34.25 AM](</assets/Screen Shot 2017-01-29 at 1.34.25 AM.png>)      
-![Screen Shot 2017-01-29 at 1.34.30 AM](</assets/Screen Shot 2017-01-29 at 1.34.30 AM.png>)    
+![Screen Shot 2017-01-29 at 1.34.30 AM](</assets/Screen Shot 2017-01-29 at 1.34.30 AM.png>)     
+
+## 杂项  
+[下载该插件](https://chrome.google.com/webstore/detail/moni/hhmmkkgkbnnfdpmnckaicamnhfkolfej)
