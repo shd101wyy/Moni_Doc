@@ -3,7 +3,9 @@
 <center>[painting v0.0.1 by Yiyi Wang (not finished)] </center>  
 <center> I don't know why I am writing this, but... I will continue</center>
 
-**Moni** is a chrome extension that I am developing right now.  
+<center> [中文文档](./README_CN.md)   </center>
+
+**Moni** is a chrome extension that we are developing right now.  
 I am planning to publish it to chrome web store in a month if I finish.  
 This project is closed source (might be open sourced in the future).  
 This repository will be used for issue posting and discussion.    
@@ -56,7 +58,7 @@ The script format is like below.
   script: function(event) { // event = {url, cheerio, $get}
     event.return({
       title: "Title you want to show",
-      description: "description of this noty",
+      description: "description of this moni",
       // link: "(optional) where to jump to? eg: https://github.com",
       // favicon: "(optional) favicon? eg: https://github.com/favicon.ico",
       // media: {cover: "(optional) media to put"}
