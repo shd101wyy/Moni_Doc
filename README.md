@@ -3,7 +3,8 @@
 <center>[painting v0.0.1 by Yiyi Wang (not finished)] </center>  
 <center> I don't know why I am writing this, but... I will continue</center>
 
-<center> [中文文档](./README_CN.md)   </center>
+<center> [中文文档](./README_CN.md)   </center>  
+  
 <center> [download this extension](https://chrome.google.com/webstore/detail/moni/hhmmkkgkbnnfdpmnckaicamnhfkolfej) </center>
 
 **Moni** is a chrome extension that we are developing right now.  

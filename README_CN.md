@@ -3,7 +3,8 @@
 <center>[painting v0.0.1 by Yiyi Wang (not finished)] </center>  
 <center> I don't know why I am writing this, but... I will continue</center>
 
-<center> [English Doc](./README.md) </center>
+<center> [English Doc](./README.md) </center>  
+  
 <center> [下载该插件](https://chrome.google.com/webstore/detail/moni/hhmmkkgkbnnfdpmnckaicamnhfkolfej) </center>
 
 **Moni** 是一款我们正在开发的 chrome 插件。  
