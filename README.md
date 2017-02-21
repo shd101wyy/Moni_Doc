@@ -4,7 +4,7 @@
 <center> I don't know why I am writing this, but... I will continue</center>
 
 <center> [中文文档](./README_CN.md)   </center>  
-  
+
 <center> [download this extension](https://chrome.google.com/webstore/detail/moni/hhmmkkgkbnnfdpmnckaicamnhfkolfej) </center>
 
 **Moni** is a chrome extension that we are developing right now.  
@@ -109,13 +109,11 @@ event.return({
 where `title`, `description` are required and can't be empty. The rest fields are optional.  
 
 ### Publish Script  
-Before publish your script, you need to create/open your developer account.    
+To publish your script, make sure your script has `public` set to `true`, and host your script somewhere like Github. Then search the url of your script on script page.   
 
-![Screen Shot 2017-01-29 at 12.50.12 AM](</assets/Screen Shot 2017-01-29 at 12.50.12 AM.png>)  
+![Screen Shot 2017-02-20 at 7.36.20 PM](http://i.imgur.com/K95hRyo.png)  
 
-Enter settings panel by clicking at the gear, then you can signin/signup as developer.  
-After you can see your developer `token`, you can then edit your script and change the set `public` to `true` to publish it.  
-
+If you want to publish an updated version of script, make sure you have `version` incremented, then follow previous step.  
 
 ## Example Scripts  
 I will introduce two example scripts:     

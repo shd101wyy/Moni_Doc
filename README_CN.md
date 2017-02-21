@@ -4,7 +4,7 @@
 <center> I don't know why I am writing this, but... I will continue</center>
 
 <center> [English Doc](./README.md) </center>  
-  
+
 <center> [下载该插件](https://chrome.google.com/webstore/detail/moni/hhmmkkgkbnnfdpmnckaicamnhfkolfej) </center>
 
 **Moni** 是一款我们正在开发的 chrome 插件。  
@@ -108,13 +108,12 @@ event.return({
 `title`, `description` 是必须的，而且不能是空字符串。其余的可以省略。  
 
 ### 发布你的脚本    
-在发布你的脚本之前，你需要创建／登陆你的 developer 账号。
+在发布你的脚本之前，请确保 `public` 项设置为了 `true`，并且该脚本被放在了某个服务器上，例如 Github。然后在 script page 上面搜索你的脚本的 url。  
 
-![Screen Shot 2017-01-29 at 12.50.12 AM](</assets/Screen Shot 2017-01-29 at 12.50.12 AM.png>)  
+![Screen Shot 2017-02-20 at 7.36.20 PM](http://i.imgur.com/K95hRyo.png)  
 
-点击 齿轮按钮 进入设置页，然后你就可以创建或者登陆你的账号了。  
-登陆之后，你将会看到你的开发者 `token`。  
-接着你就可以改写你的脚本，将 `public` 项设置为 `true` 来发布了。
+如果你想要发布更新的版本的脚本，请确保你的 `version` 项增加了，然后重复上一步。  
+
 
 ## 例子
 I will introduce two example scripts:     
